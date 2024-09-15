@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Gabriel N. Santana</title>
+
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="shortcut icon" href="imagens/favicon/code.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/mobile.css">
+    <link rel="stylesheet" href="estilos/tablet.css">
+    <link rel="stylesheet" href="estilos/swiper-bundle.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/869bb39064.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/scrollreveal" defer></script>
+    <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+
+</head>
+<body>
+    <header >
+            <nav>
+                <span class="material-symbols-outlined" id="burguer-menu" onclick="clickMenu()">
+                    menu
+                </span>
+                <ul id="menuescondido">
+                    <li><a href="#about">SOBRE</a></li>
+                    <li><a href="#hardskills">SKILLS</a></li>
+                    <li><a href="#projects">PROJETOS</a></li>
+                    <li><a href="#certifications">CERTIFICAÇÕES</a></li>
+                </ul>
+            </nav>
+    </header>
+    <div class="border"></div>
+    <section class="name-container">
+        <div class="estilo-texto estilo-texto-topo">
+            <h1>Gabriel N. Santana</h1>
+            <h2>Desenvolvedor/Programador</h2>
+            <p>Desenvolvendo com <span class="estilo-p"></span></p>
+        </div>
+            <div class="style-name-img ">
+                <img class="estilo-imagem estilo-imagem-topo" src="imagens/gabrielprofile.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+    <div id="about"  class="degrade">
+    </div>
+    <section class="about-container">
+        <img class="estilo-imagem estilo-imagem-sobre" src="imagens/gabriel2.jpg">
+        <div class="estilosobre estilo-texto-sobre">
+            <h2>Sobre Mim</h2>
+            <p>Apaixonado por tecnologia, pude encontrar no desenvolvimento web uma forma de expressar minha criatividade e contribuir na vida de outras
+            pessoas.</p>
+            <p>
+            Trabalho em equipe,autodidata, liderança e capacidade de resolução
+            são diferenciais que me destacam para agregar e contribuir com qualquer
+            equipe que for trabalhar.
+            </p>
+            <p>Como autodidata, pude aprender as habilidades técnicas necessárias e 
+            aplicá-las em projetos práticos simulando a realidade, criando projetos úteis.</p>
+            <p>
+             Gamer, leitor e entusiasta esportivo, meus hobbies me mantém equilibrado para melhor exercer minhas tarefas como desenvolvedor e ainda me ajudam no desenvolvimento pessoal.
+            </p>
+        </div>
+    </section>
+
+    <div id="hardskills" class="degrade2">
+    </div>
+
+    <section class="hardskills"> 
+        <h2 class="efeito-titulo">Hard Skills</h2>
+        <div class="estilo-hard-skills ">
+          <i class="hardskills-animation"><img src="imagens/hard-skill-icon/html.png" alt="" class="estilo-icon" ><p id="logo-html">HTML</p></i>
+          <i class="hardskills-animation"><img src="imagens/hard-skill-icon/css-3.png" alt="" class="estilo-icon" ><p id="logo-css">CSS</p></i>
+          <i class="hardskills-animation"><img id="js" src="imagens/hard-skill-icon/js.png" alt="" class="estilo-icon"><p id="logo-css">JavaScript</p></i>
+          <div class="hide-elements">
+              <i><img src="imagens/hard-skill-icon/tailwind.png" alt="" class="estilo-icon"><p>Tailwind</p></i>
+              <i><img src="imagens/hard-skill-icon/react.png" alt="" class="estilo-icon"><p>React</p></i>
+              <i><img src="imagens/hard-skill-icon/typescript.png" alt="" class="estilo-icon"><p>TypeScript</p></i>
+        </div>
+          
+      </div>
+    </section>
+
+    <section class="soft-skills">
+
+        <h2 class="efeito-titulo"> Soft Skills</h2>
+
+        <div class="soft-skills-imagens">
+            <div style="background-image: url(imagens/soft-skills-image/time-managment.png);" class="estilo-soft-1"> <p> Gestão de Tempo</p></div>
+            <div style="background-image: url(imagens/soft-skills-image/team-work.png) ;" class="estilo-soft-2"><p>Resolução de Problema</p></div>
+            <div style="background-image: url(imagens/soft-skills-image/self-taught.png) ;" class="estilo-soft-3"><p>Autodidata</p></div>
+            <div style="background-image: url(imagens/soft-skills-image/problem-solving.png) ;" class="estilo-soft-4"><p>Trabalho em Equipe</p></div>
+            <div style="background-image: url(imagens/soft-skills-image/idea.png) ;" class="estilo-soft-5"><p id="p-style">Criativo</p></div>
+        </div>
+    </section>
+    <div id="projects" class="degrade3">
+    </div>
+    <div class="div-title">
+        <h2 class="efeito-titulo">Projetos</h2>
+    </div>
+    <section class="projects">
+        <div class="style-projects">
+            <img class="estilo-img-projeto" src="imagens/projetos/porsche.png" alt="">
+            <div class="projects-text estilo-texto-projeto">
+                <h3>Porsche Garage</h3>
+                <p>Site de todos modelos de Porsche com funcionalidades e interações que melhoram a experiência do usuário. <br><br>Construido com a estratégia mobile first e adaptado para telas maiores. <br><br><span class="estilo-tec">Tecnologias utilizadas:</span> HTML, CSS e JavaScript</p>
+                <div class="projects-button">
+                    <a href="https://porschegarage.vercel.app/" target="_blank">
+                        <p class="projects-button-style"><img src="imagens/projects-icon/internet.png" alt="">Deploy</p>
+                    </a>
+                    <a href="https://github.com/gabrielnsantana/porschegarage" target="_blank">
+                        <p class="projects-button-style" id=github-button><img src="imagens/projects-icon/github.png" alt="">GitHub</img></p>
+                    </a>
+                </div>
+            </div>
+        </div>
+     
+    
+        
+    </section>
+    <div id="certifications" class="degrade4"></div>
+    <div id="div-title-certificado"> 
+        <h2 class="efeito-titulo"> Certificações</h2>
+    </div>
+
+    <section>
+        <div class="style-certifications">
+            
+                <div class="style-card ">
+                    <div class="style-card-2" id="style-card">
+                        <img class="img-style" src="" alt="">
+                        <h3>Alura - Imersão IA Google Gemini <br></h3>
+                        <p>Curriculo #Imersão IA Google Gemini</p>
+                    </div>
+                </div>
+        
+        </div>
+    </section>
+
+    
+    <div class="degrade-footer"></div>
+    <footer>
+        <a href="https://www.linkedin.com/in/gabriel-n-santana-269004213/" target="_blank"><img src="imagens/social-icon/linkedin.png"  alt=""></a>
+        <a href="https://github.com/gabrielnsantana" target="_blank"><img src="imagens/social-icon/github.png"  alt=""></a>
+
+            <p>Gabriel N. Santana - 2024</p>
+    </footer>
+    <script src="js/script.js" defer></script>
+    </script>
+</body>
+</html>
