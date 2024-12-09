@@ -32,7 +32,7 @@ header {
     padding-left: 80px;
     display: flex;
     align-items: center;
-    border-bottom: 2px solid #38B6FF;
+    border-bottom: 2px solid #00a2ff;
     width: 100vw;
     z-index: 1;
     position: fixed;
@@ -56,7 +56,7 @@ a {
 }
 
 header a:hover {
-    background-color: #38B6FF;
+    background-color: #61baee;
     padding: 15px;
     border-radius: 5px;
     color: #121212;
@@ -81,7 +81,7 @@ header a:hover {
 }
 
 h1 {
-    color: #38B6FF ;
+    color: #6ed6ff ;
     font-size: 4.68rem;
     padding-top: 100px;
 
@@ -107,13 +107,13 @@ p {
 
 .estilo-p {
     position:static;
-    color: #38B6FF;
+    color: #1eff00;
     font-weight: bolder;
 }
 
 
 .botaocv {
-    background-color: #38B6FF;
+    background-color: #0f4869;
     border-width: 0;
     border-radius: 30px;
     padding: 20px;
@@ -129,7 +129,7 @@ p {
 }
 
 .botaocv:hover {
-    border: 2px solid #38B6FF;
+    border: 2px solid #00a2ff;
     background-color: #121212;
     color: #38B6FF;
     transition: 0.3s;
@@ -196,7 +196,7 @@ p {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: #38B6FF;
+    color: #00a2ff;
     font-size: 3rem;
 }
 
@@ -221,7 +221,7 @@ p {
 }
 
 .estilo-hard-skills i p {
-    color: #38B6FF;
+    color: #00a2ff;
     font-weight: 400;
     padding-top: 20px;
     font-style: normal;
@@ -255,7 +255,7 @@ p {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    color: #38B6FF;
+    color: #18435c;
     font-size: 3rem;
 }
 
@@ -490,7 +490,7 @@ footer {
 }
 
 footer p {
-    color: #38B6FF;
+    color: #113e58;
     font-size: 0.75rem;
 
 }
